@@ -1,0 +1,22 @@
+{
+  "name": "products-web-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon ./server/index.js --watch",
+    "load": "cd ./db-postgres && cat schema.sql | psql greenfield"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg-promise": "^10.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "style-loader": "^2.0.0"
+  }
+}

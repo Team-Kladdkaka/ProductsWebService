@@ -9,4 +9,8 @@ app.use(bodyParser.json());
 const router = require('./routes.js');
 app.use('/', router);
 
+app.get('*', (req, res) => {
+  res.send('Page Not Found');
+})
+
 app.listen(port, () => console.log(`Listening on port ${port}`));

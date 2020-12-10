@@ -2,3 +2,7 @@ config.js
 node_modules
 
 .DS_Store
+
+newrelic.js
+newrelic_agent.log
+loaderio-e1cde7e76e8c781dd7a81444a26c4d61.txt
